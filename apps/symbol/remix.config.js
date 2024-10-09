@@ -8,6 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
  * @type {import('@remix-run/dev').AppConfig}
  */
 export default {
+  tailwind: true,
   ignoredRouteFiles: ['**/.*'],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",

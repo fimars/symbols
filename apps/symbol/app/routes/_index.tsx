@@ -1,9 +1,8 @@
-import NxWelcome from "../nx-welcome";
+import { XWindow } from "apps/symbol/app/x-window";
 
 export default function Index() {
 	return (
-		<div>
-			<NxWelcome title={"symbol"} />
-		</div>
+		<XWindow >
+		</XWindow>
 	);
 }
